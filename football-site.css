@@ -26,6 +26,7 @@ header{
 }
 
 
+
 .banner-title {
     font-size: 52px;
     width: 485px;
@@ -74,6 +75,7 @@ header{
     grid-column-gap: 60px;
     grid-row-gap: 30px;
     padding: 6% 16% 3% 13%; 
+    margin-left: 2%;
 }
 
 .player-frame{
@@ -178,10 +180,12 @@ header{
 .footer-image{
     width: 450px;
     height: 110px;
+    margin-right: 3%;
 }
 .footer-image img{
     width: 100%;
     height: 100%;
+    
 }
 
 .footer-icon a{
@@ -208,6 +212,9 @@ header{
         flex-direction: column;
         justify-content: center;
         align-items: center; 
+    }
+    .banner-text{
+        margin-right: 20%;
     }
     .banner-pic{
         margin-top: 16%;
