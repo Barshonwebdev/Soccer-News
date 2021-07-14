@@ -26,7 +26,6 @@ header{
 .top-banner{
     display: flex;
     justify-content: center;
-    width: 100%;
 }
 
 
@@ -72,9 +71,7 @@ header{
 
 /* main section styles */
 
-.container{
-    
-}
+
 .all-players{
     
 
@@ -112,9 +109,81 @@ header{
     font-size: 16px;
 }
 
+/* bonus section 1 styles */
+
+.newsbox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2% 16% 3% 13%;
+}
+.newsbox h1{
+        font-size: 29px;
+        font-style: italic;
+}
+
+.news{
+    display: flex;
+    
+    
+}
+.newsframe{
+    width: 280px;
+    height: 280px;
+    border: rgb(48, 44, 44) 2px solid;
+    border-radius: 5%;
+    padding: 1%;
+    margin: 20px;
+    -webkit-border-radius: 5%;
+    -moz-border-radius: 5%;
+    -ms-border-radius: 5%;
+    -o-border-radius: 5%;
+    background-color: rgb(228, 243, 220);
+    
+}
+
+.news-pic img{
+    border-radius: 5%;
+    -webkit-border-radius: 5%;
+    -moz-border-radius: 5%;
+    -ms-border-radius: 5%;
+    -o-border-radius: 5%;
+}
+
+.news-title a {
+    text-decoration: none;
+    color: rgb(252, 111, 46);
+}
+
+/* bonus section 2 styles */
+.poll{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title-text{
+    font-size: 29px;
+    font-style: italic;
+}
+.poll-box{
+    background-color: rgb(65, 219, 219);
+    width: 30%;
+    padding-left: 5%;
+    border-radius: 19px;
+    -webkit-border-radius: 19px;
+    -moz-border-radius: 19px;
+    -ms-border-radius: 19px;
+    -o-border-radius: 19px;
+    
+}
+
+.poll-options{
+    margin-left: 30%;
+    color: rgb(253, 251, 255);
+}
 /* footer styles  */
 .footer{
-    margin-top: 10%;
+    margin-top: 8%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -150,7 +219,7 @@ header{
 @media screen and (max-width:500px){
     
     .header{
-        width: 100%
+        width: 100%;
         
     }
     .top-banner{
@@ -173,6 +242,14 @@ header{
     .all-players{
         grid-template-columns: repeat(1,1fr);
         padding: 6% 16% 9% 25%;
+    }
+
+    .news{
+        flex-direction: column;
+    }
+
+    .poll-options{
+        margin-left: 10%;
     }
 }
 
