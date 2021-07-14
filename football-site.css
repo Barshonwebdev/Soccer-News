@@ -239,7 +239,7 @@ header{
 
     .all-players{
         grid-template-columns: repeat(1,1fr);
-        /* padding: 6% 16% 9% 25%; */
+        padding: 0%;
     }
 
     .news{
@@ -251,6 +251,8 @@ header{
     }
     .footer-image{
         margin: 0%;
+        width: 300px;
+        height: 80px;
     }
 }
 
